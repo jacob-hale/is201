@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(96, 104, 166);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    color: rgb(9, 9, 9);
+    text-decoration: none;}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: rgb(8, 14, 187);
+}
+.top {
+    position: float;
+    height: 600px;
+}
+
+.common {
+    border: 2px solid white;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(136, 168, 173);
+    margin:auto;
+    width: 70%;
+    padding-bottom: 10px;
+}
+.center{
+    text-align: center;
+    /* list-style-position: inside; */
+}
+.list_box{
+    margin: auto;
+    width:35%;
+    text-align: left;
+}
+.background_image {
+    position: fixed;
+    background-image: url("../assets/img/fortnite.jpg_large");
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;   
+    background-repeat: no-repeat; 
+}
+
+.italics {
+    font-style: italic;
+}
+.smaller {
+    font-size:xx-small;
+}
+
+.gold{
+    color:gold
+}
+.tableau_container {
+    border: 2px solid white;
+
+    background-color: rgb(136, 168, 173);    
+    height: 50%; /* Set the desired height (adjust as needed) */
+    overflow: scroll; /* Hide any overflow content */
+    position: relative;
+    width: 70%;
+    margin: auto;   /* Additional styling as needed */
+    padding-bottom: 10px;
+}
