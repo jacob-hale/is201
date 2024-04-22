@@ -38,7 +38,7 @@ a:visited {
 }
 .background_image {
     position: fixed;
-    background-image: url("/assets/img/fortnite.jpg_large");
+    background-image: url("../assets/img/fortnite.jpg_large");
     top: 0px;
     left: 0px;
     height: 100%;
